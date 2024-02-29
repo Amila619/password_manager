@@ -75,15 +75,3 @@ class Database:
             return result
         except:
             pass
-
-# d = Database()
-#
-# v = d.return_user_db_data("OJZRS5rrCvSdBYLbSt9xs6KAJ6x2")
-# for instance in v.each():
-#         item = instance.val()
-#         if item == None:
-#             continue
-#         print(item)
-
-# d.delete_all_entry()
-# d.delete_selected_entry()
